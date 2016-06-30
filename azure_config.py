@@ -23,6 +23,7 @@ class AzureConfig():
             self.subnet_name = config.get('Config', 'subnet_name')
             self.region = config.get('Config', 'region')
             self.admin_username = config.get('Config', 'admin_username')
+            self.vm_size = config.get('Config', 'vm_size')
             self.image_publisher = config.get('Config', 'image_publisher')
             self.image_offer = config.get('Config', 'image_offer')
             self.image_sku = config.get('Config', 'image_sku')
