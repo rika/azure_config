@@ -8,7 +8,6 @@ virtual_network_name =
 subnet_name = default
 region = eastus2
 admin_username =
-key_path =
 vm_size = Standard_F1
 image_publisher = Canonical
 image_offer = UbuntuServer

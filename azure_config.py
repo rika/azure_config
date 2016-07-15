@@ -39,7 +39,6 @@ class AzureConfig():
         self.region = config.get('Config', 'region')
         self.admin_username = config.get('Config', 'admin_username')
         self.vm_size = config.get('Config', 'vm_size')
-        self.key_path = config.get('Config', 'key_path')
         
         try:
             self.template_image_vhd = config.get('Config', 'template_image_vhd')
