@@ -47,7 +47,6 @@ class AzureConfig():
             logger.debug(e)
             self.template_image_vhd = None
                 
-        logger.debug('template_image_vhd: %s' % self.template_image_vhd)
         if self.template_image_vhd is None:
             self.image_publisher = config.get('Config', 'image_publisher')
             self.image_offer = config.get('Config', 'image_offer')
